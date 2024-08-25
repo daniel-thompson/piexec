@@ -1,0 +1,24 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/arm-linux-gnueabihf-gcc-10",
+      "-g",
+      "-flto",
+      "-fuse-linker-plugin",
+      "-Os",
+      "-mthumb",
+      "-march=armv7-a",
+      "-fpie",
+      "-nostdinc",
+      "-Ilibc/include/",
+      "-Iinclude/",
+      "-c",
+      "-o",
+      "tests/hello.o",
+      "tests/hello.c"
+    ],
+    "directory": "/home/drt/Projects/daniel-thompson/mcdos/csim",
+    "file": "/home/drt/Projects/daniel-thompson/mcdos/csim/tests/hello.c",
+    "output": "/home/drt/Projects/daniel-thompson/mcdos/csim/tests/hello.o"
+  }
+]
